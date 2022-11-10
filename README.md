@@ -145,10 +145,24 @@ br><br>
 <br>
 
 
-<img src="https://user-images.githubusercontent.com/62428397/201131828-fa196485-4437-4fdc-9fb5-7d486163d312.png">
+<img src="https://user-images.githubusercontent.com/62428397/201131828-fa196485-4437-4fdc-9fb5-7d486163d312.png"><br>
 <a>Router 0 ve Router 2 arasındaki Ipv6 routing de sağlandı</a><br>
 <br>
 <br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201141894-219c5810-9fe7-4c91-bc8d-4913b0388971.png"><br>
+<a>Cihazlar arası ipv6 routing de sağlanabilmesi için Router 1 ve switch arasında 'ipv6 ospf 1 area 0' şeklinde komutu yazarak bağlantıyı açıyoruz. </a><br>
+<br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201142606-442aa54a-df78-4901-97c9-b64852568428.png"><br>
+<a>Cihazlar arası ipv6 routing de sağlanabilmesi için Router 2 ve switch arasında  bağlantıyı açıyoruz. </a><br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201142930-a1195a7d-a540-4be1-9aa6-4ff34d4949ec.png"><br>
+<a>Cihazlar arası ipv6 routing de sağlanabilmesi için Router 2 ve switch arasında  bağlantıyı açıyoruz. </a><br>
+<br>
+     
 
 <h3>Sıra ipv6 Dns ayarlamasına geldi.</h3><br>
 <br>
