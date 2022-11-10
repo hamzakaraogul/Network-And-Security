@@ -46,7 +46,7 @@
 <img src="https://user-images.githubusercontent.com/62428397/201108390-3aa0d2eb-bba3-4b2d-bfd4-320c89f49b2c.png"><br>
 <a>Yukarıdaki resimde de görüldüğü üzere kendi içinde router arasında ki bağlantımızda problem görülmemektedir. Fakat dışarıdaki bir router ile bağlantı kurmaya çalıştığımızda 'Destination host unreachable' hatası almaktayız. Bu hata ping atılan o cihaz içerisindeki router üzerindeki ayarın yapılmadığını bize anlatmaktadır. </a><br>
 <br>
-<a>Şimdi routerlar arası bağlantıyı kuracağız ve bu bağlantı ospf üzerinden olacaktır. Bu bağlantı yine ipv4 üzerinden olacaktır.</a><br>
+<h3>Şimdi routerlar arası bağlantıyı kuracağız ve bu bağlantı ospf üzerinden olacaktır. Bu bağlantı yine ipv4 üzerinden olacaktır.</h3><br>
 
 <br>
 <br>
@@ -69,7 +69,7 @@
 <a>Yukarı da da görüldüğü üzere rastgele seçtiğimiz bir cihazda ping denemelerinin başarılı bir şekilde çalıştığınız görüyoruz.</a>
 br><br>
 
-<a>Şimdi ipv4 ile son yapmamız gereken dns ayarlamasını yapmamız ve acl ile portları kapatmak olacaktır.</a><br>
+<h3>Şimdi ipv4 ile son yapmamız gereken dns ayarlamasını yapmamız ve acl ile portları kapatmak olacaktır.</h3><br>
 br><br>
 <img src="https://user-images.githubusercontent.com/62428397/201114026-e944a498-d69f-461b-8d02-aa8192824a8c.png"><br>
 <a>Öncelikle bütün cihazlara resimde görülen dns serverın ip atamalarını elle yapıyoruz.</a><br>
@@ -83,7 +83,7 @@ br><br>
 <a>Rastgele bir cihazda tarayıcı üzerinden denediğinizde dns serverin çalıştığını göreceksiniz.</a><br>
 <br>
 <br>
-<a>Şimdi son olarak Acess List ile diğer portları kapatıyoruz.</a><br><br>
+<h3>Şimdi son olarak Acess List ile diğer portları kapatıyoruz.</h3><br><br>
 
 <img src="https://user-images.githubusercontent.com/62428397/201116279-03937c6d-c75c-4836-9473-8240e680e7fe.png"><br>
 <a>Dns ve Server Router 0 üzerinde bağlı olduğu için ayarlamayı oradan yapmaktayız. </a><br>
@@ -98,6 +98,10 @@ br><br>
 <img src="https://user-images.githubusercontent.com/62428397/201118642-90fb51b3-1a40-4d6f-90a0-f2a97bed69ac.png"><br>
 <a>Tarayıcıdan girmeye çalıştığımzda da daha önce tanımdalığımız yere girebilmekteyiz. Yani diğer portlar kapanmış oldu.</a>
 
+<br>
+<br>
+
+<h3>Şimdi Ipv6 üzerinden gideceğiz ve onun ip atamalarını yapacağız.</h3><br>
 
 
 
