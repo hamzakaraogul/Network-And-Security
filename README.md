@@ -121,6 +121,15 @@ br><br>
 <br>
 
 
+<img src="https://user-images.githubusercontent.com/62428397/201137412-bd371d82-1bf0-4cbc-90d3-5c0b49324c02.png"><br>
+<a>Router 1 ve Switch arasındaki ipv6 atamasını yapıyoruz.</a><br>
+<br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201137841-2651d963-4f61-45d8-a9bb-6499ff7c4eaf.png"><br>
+<a>Router 2 ve Switch arasındaki ipv6 atamasını yapıyoruz.</a><br>
+<br>
+
 <img src="https://user-images.githubusercontent.com/62428397/201124780-510ece2a-cc7d-449b-910d-c914dc6277f4.png">
 <br><a>Resimde de görüldüğü üzere routerlar arası da ipv6 bağlantılarımız yaptıktan sonra cihazlar arası iletişimi kurmak için ipv6 routing ospfimize de başlıyoruz.</a><br>
 <br>
