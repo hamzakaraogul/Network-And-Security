@@ -62,6 +62,42 @@
 <a>Router 0 ve Router 1 ayarlamalarını yaptığımızda burada Router 0 da zaten network 13.0.0.0 eklediğimiz için sadece Router 2 ayarlaması kalmıştır. O da aşağıdaki resimde de görüldüğü üzeredir. </a><br>
 
 <img src="https://user-images.githubusercontent.com/62428397/201113011-9b89d5ec-8585-4d01-bfa7-1f6a5e012af9.png"><br>
+<br><br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201113420-ace7238c-a88e-4fbc-9764-00c65c784bba.png"><br>
+<a>Yukarı da da görüldüğü üzere rastgele seçtiğimiz bir cihazda ping denemelerinin başarılı bir şekilde çalıştığınız görüyoruz.</a>
+br><br>
+
+<a>Şimdi ipv4 ile son yapmamız gereken dns ayarlamasını yapmamız ve acl ile portları kapatmak olacaktır.</a><br>
+br><br>
+<img src="https://user-images.githubusercontent.com/62428397/201114026-e944a498-d69f-461b-8d02-aa8192824a8c.png"><br>
+<a>Öncelikle bütün cihazlara resimde görülen dns serverın ip atamalarını elle yapıyoruz.</a><br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201114465-7eff7c4b-444a-4e30-b95e-f4c2acb976c0.png"><br>
+<a>Sonrasında dns servera girip service ayarları altında dns'in içine girip aktif ediyoruz ve web yolunu resimdeki gibi tanımlıyoruz ve add tuşuna basıyoruz.</a><br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201114917-19cb6c3d-b3da-4641-b4ea-f071f769023d.png"><br>
+<a>Rastgele bir cihazda tarayıcı üzerinden denediğinizde dns serverin çalıştığını göreceksiniz.</a><br>
+<br>
+<br>
+<a>Şimdi son olarak Acess List ile diğer portları kapatıyoruz.</a><br><br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201116279-03937c6d-c75c-4836-9473-8240e680e7fe.png"><br>
+<a>Dns ve Server Router 0 üzerinde bağlı olduğu için ayarlamayı oradan yapmaktayız. </a><br>
+<a>Öncelikle access list ayarlarken sırasıyla en-> conf t -> ip access-list extended WEBACL şeklinde giriyoruz. Bu kısımda WEBACL şeklinde yazdığımız yere başka birşey yazabiliriz.</a><br>
+<a>Sonrasında permit udp any host 192.168.1.2 eq 53 şeklinde komut giriyoruz. Burada any herhangi bir yerden gelen anlamındadır oraya istersek 192.168.2.0 0.0.0.255 şeklinde de bir ifade yapabilirdik ama böylelikle sadece 192.168.2.0 dan gelen istekler kabul edilirdi yada sadece bir cihaza izin verseydik host 192.168.2.2 şeklinde izin vermiş olacaktık. Yani: permit udp 192.168.2.0 0.0.0.255 host 192.168.1.2 eq 53 veya permit udp host 192.168.2.2 host 192.168.1.2 eq 53 </a><br>
+<a>Sonrasında int fa0/0 komutunu yazıyoruz. Bunun nedeni istekler dışarıdan geleceği için routerdan sonra filtreleme yaparak 'ip access-group WEBACL out' şeklinde out ile yani dışarıdan gelen istekleri filtreliyoruz. </a><br>
+<a>Örnek olarak baktığımızda;</a><br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201118393-043ced24-1492-40df-9768-4204eaeaa431.png"><br>
+<a>Sağdaki laptop üzerinden ping attığımızda resimde de görüldüğü üzere router 0 üzerinden istek durdurulmaktadır.</a><br>
+<img src="https://user-images.githubusercontent.com/62428397/201118642-90fb51b3-1a40-4d6f-90a0-f2a97bed69ac.png"><br>
+<a>Tarayıcıdan girmeye çalıştığımzda da daha önce tanımdalığımız yere girebilmekteyiz. Yani diğer portlar kapanmış oldu.</a>
+
 
 
 
