@@ -113,6 +113,12 @@ br><br>
 
 
 <img src="https://user-images.githubusercontent.com/62428397/201121390-89f09edc-bc77-4e48-9b4d-14ae41adaead.png"><br>
-<a>Router 0 ve Router 1 arasındaki ipv6 atamasını gerçekleştiyoruz. Her zamanki gibi Router 0 da clock olduğu için clock rate giriyoruz. Cihaz arası bağlantılar açık olduğu için 'no sh' yazmamıza gerek kalmıyor.</a>
+<a>Router 0 ve Router 1 arasındaki ipv6 atamasını gerçekleştiyoruz. Her zamanki gibi Router 0 da clock olduğu için clock rate giriyoruz. Cihaz arası bağlantılar açık olduğu için 'no sh' yazmamıza gerek kalmıyor.</a><br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201122471-882f3502-ead6-4775-96f5-52840b14943e.png"><br>
+<a>Router 0 ve Router 2 arasındaki ipv6 atamalarını gerçekleştiriyoruz.</a><br>
+<br>
+
 
 
