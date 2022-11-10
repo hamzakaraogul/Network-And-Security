@@ -48,6 +48,20 @@
 <br>
 <a>Şimdi routerlar arası bağlantıyı kuracağız ve bu bağlantı ospf üzerinden olacaktır. Bu bağlantı yine ipv4 üzerinden olacaktır.</a><br>
 
+<br>
+<br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201111055-ddefb40f-6dfc-4dc9-97e0-a228519a153f.png">
+<br>
+<a>Router ospf bağlantısı wilcard mask kullanmaktadır. O yüzden bağlantıları yazarken subnet maskın tersini yazmaktayız. Yukarıda resim de de görüldüğü gibi 255.255.255.252 -> 0.0.0.3 ve 255.255.255.0 -> 0.0.0.255 dir. </a><br>
+<a>Router 0 ayarlamasını yaparken ' network 13.0.0.0 0.0.0.3 area 0 ' de yazdığımızı farketmişsinizdir. Bunun nedeni Router 0'ın bu yola da sahip olmasından kaynaklanmaktadır. Yani ospf ayarlaması yapılandırırken router ospf 1 -> network 192.168.1.0 0.0.0.255 şeklinde sahip olduğumuz yolları işlemekteyiz. </a>
+
+<br><br>
+
+<a>Router 0 ve Router 1 ayarlamalarını yaptığımızda burada Router 0 da zaten network 13.0.0.0 eklediğimiz için sadece Router 2 ayarlaması kalmıştır. O da aşağıdaki resimde de görüldüğü üzeredir. </a><br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201113011-9b89d5ec-8585-4d01-bfa7-1f6a5e012af9.png"><br>
 
 
 
