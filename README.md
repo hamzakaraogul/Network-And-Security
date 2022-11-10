@@ -172,7 +172,8 @@ br><br>
 <a>Bütün cihazlara manuel olarak Ipv6 dns adresini giriyoruz.</a><br>
 <br>
 
-<img src="https://user-images.githubusercontent.com/62428397/201132675-9c8fd267-8985-463c-bcd7-78822d6fc631.png"><br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201155534-a6f1ae1b-84ed-4b1d-8ce2-07fe06bf2395.png"><br>
 <a>Dns servis ayarlarında tekrardan dns ayarlarını yapıyoruz ve bu sefer ipv6 için resimdeki gibi dns ayarlarını yapılandırıyoruz. </a><br>
 
 
@@ -190,6 +191,8 @@ br><br>
 <a>Yukarıdaki resimde yaptığımız gibi Ipv6 için access listimizi ayarladık.</a><br>
 
 
+<img src="https://user-images.githubusercontent.com/62428397/201155067-fb086547-8bea-4f4c-94fe-aa8600b717b6.png"><br>
+<a>Son olarak test ettiğimizde dns ve tcp harici diğer portların kapanmış olduğunu görüyoruz.</a><br>
                                                            
 
 
