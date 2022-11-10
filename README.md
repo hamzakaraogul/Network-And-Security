@@ -23,7 +23,10 @@
 <img src="https://user-images.githubusercontent.com/62428397/201103873-860d6baf-48f9-44cc-94a7-8ce6ac4288f9.png"><br>
 <a>Yukarıdaki resimde de görüldüğü üzere Switch - Router arasındaki fa0/0 interface'ne giriyoruz ve 192.168.1.1 255.255.255.0 (/24 olduğu için subnetmask bu şekilde girilmektedir) atamasını gerçekleştiriyoruz.</a><br>
 <a>Router 0 Command Line üzerindeki komutlar sırasıyla; en -> conf t -> int fa0/0 -> ip add 192.168.1.1 255.255.255.0 -> no sh (bu komutla bağlantıyı açıyoruz) </a>
+<br>
 
+<img src="https://user-images.githubusercontent.com/62428397/201105023-89651c98-0639-4f78-b1eb-b29038b06091.png"><br>
+<a>Devam ettiğimizde yukarıda görüldüğü üzere Router 0 ve Router 1 arasında ki ipv4 atamalarını yapıyoruz ve subnetmask ataması /30 olduğu için 255.255.255.252 olarak atıyoruz. Router 0 üzerinde de görüldüğü üzere Clock rate Router 0 da olduğu için komutları girdiğimizde onun limitini de belirliyoruz.</a><br>
 
 
 
