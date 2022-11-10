@@ -32,7 +32,15 @@
 
 <img src="https://user-images.githubusercontent.com/62428397/201106217-0e48aa85-ec8c-44c9-ae94-340a89cd6a4f.png">
 <a>Devam edersek Router0 ve Router2 arasındaki ipv4 atamasını da gerçekleştiriyoruz. </a> <br>
+<br>
 
+
+<img src="https://user-images.githubusercontent.com/62428397/201106958-9283b687-2a86-42f6-86d6-5cbed014c1f8.png"><br>
+<a>Router 1 ve Switch arasındaki ipv4 atamasını yapıyoruz.</a><br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201107346-23656b7e-6f12-41d9-9293-745170bddcc6.png"><br>
+<a>Router 2 ve Switch arasındaki ipv4 atamasını yapıyoruz.</a><br>
 
 
 
