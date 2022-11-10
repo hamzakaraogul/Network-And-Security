@@ -121,5 +121,35 @@ br><br>
 <br>
 
 
+<img src="https://user-images.githubusercontent.com/62428397/201124780-510ece2a-cc7d-449b-910d-c914dc6277f4.png">
+<br><a>Resimde de görüldüğü üzere routerlar arası da ipv6 bağlantılarımız yaptıktan sonra cihazlar arası iletişimi kurmak için ipv6 routing ospfimize de başlıyoruz.</a><br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201126437-5b043a4e-03f9-41f7-b141-4065328be186.png"><br>
+<a>Resimde de görüldüğü üzere ipv6 routinge başlarken Ipv6 routing not enabled hatası almaktayız. Bunun önüne geçmek için 'ipv6 unicast-routing' yazarak ipv6 routing'i etkinleştiriyoruz</a><br>
+<br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201129024-1d1f8b4e-e8f0-466e-9b2d-14d50bfd5f6f.png">
+<br><a>Ipv6 routing yaparken ipv6 router ospf 1 adımından sonra router-id 5.5.5.5 şeklinde örnek olarak router idsi veriliyor sonra route açılması istenilen yolun interface'ne girilerek int fa0/0-> ipv6 ospf 1 area 0 şeklinde diğer yolları belirtmeden routing başlatılıyor.</a><br>
+<a>Yukarıdaki resimde de görüldüğü üzere Router 0 ve Router 1 arasındaki ipv6 routing sağladık.</a><br>
+<br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201131828-fa196485-4437-4fdc-9fb5-7d486163d312.png">
+<a>Router 0 ve Router 2 arasındaki Ipv6 routing de sağlandı</a><br>
+<br>
+<br>
+
+<h3>Sıra ipv6 Dns ayarlamasına geldi.</h3><br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201132213-4551dfb2-051b-430d-a11b-06ccf2ea283c.png"><br>
+<a>Bütün cihazlara manuel olarak Ipv6 dns adresini giriyoruz.</a><br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201132675-9c8fd267-8985-463c-bcd7-78822d6fc631.png"><br>
+<a>Dns servis ayarlarında tekrardan dns ayarlarını yapıyoruz ve bu sefer ipv6 için resimdeki gibi dns ayarlarını yapılandırıyoruz. </a><br>
+
 
 
