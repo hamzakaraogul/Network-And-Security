@@ -104,4 +104,15 @@ br><br>
 <h3>Şimdi Ipv6 üzerinden gideceğiz ve onun ip atamalarını yapacağız.</h3><br>
 
 
+<img src="https://user-images.githubusercontent.com/62428397/201119577-d4f8db8b-1b09-4a7e-9500-178062311163.png"><br>
+<a>Resimde de görüldüğü üzere önce cihazlara manuel olarak ipv6 adreslerini ekliyoruz.</a><br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201120480-2c1249ce-ee68-46d7-a24d-6f1814908a07.png"><br>
+<a>Tekrardan yukarıdan başlayarak Router 0 ve Multilayer Switch arasındaki ipv6 atamasını gerçekleştiriyoruz.</a><br>
+<br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201121390-89f09edc-bc77-4e48-9b4d-14ae41adaead.png><br>
+<a>Router 0 ve Router 1 arasındaki ipv6 atamasını gerçekleştiyoruz. Her zamanki gibi Router 0 da clock olduğu için clock rate giriyoruz. Cihaz arası bağlantılar açık olduğu için 'no sh' yazmamıza gerek kalmıyor.</a>
+
 
