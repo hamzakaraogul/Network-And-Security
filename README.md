@@ -83,7 +83,7 @@ br><br>
 <a>Rastgele bir cihazda tarayıcı üzerinden denediğinizde dns serverin çalıştığını göreceksiniz.</a><br>
 <br>
 <br>
-<h3>Şimdi son olarak Acess List ile diğer portları kapatıyoruz.</h3><br><br>
+<h3>Şimdi son olarak Access List ile diğer portları kapatıyoruz.</h3><br><br>
 
 <img src="https://user-images.githubusercontent.com/62428397/201116279-03937c6d-c75c-4836-9473-8240e680e7fe.png"><br>
 <a>Dns ve Server Router 0 üzerinde bağlı olduğu için ayarlamayı oradan yapmaktayız. </a><br>
