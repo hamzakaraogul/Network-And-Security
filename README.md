@@ -43,5 +43,11 @@
 <a>Router 2 ve Switch arasındaki ipv4 atamasını yapıyoruz.</a><br>
 
 
+<img src="https://user-images.githubusercontent.com/62428397/201108390-3aa0d2eb-bba3-4b2d-bfd4-320c89f49b2c.png"><br>
+<a>Yukarıdaki resimde de görüldüğü üzere kendi içinde router arasında ki bağlantımızda problem görülmemektedir. Fakat dışarıdaki bir router ile bağlantı kurmaya çalıştığımızda 'Destination host unreachable' hatası almaktayız. Bu hata ping atılan o cihaz içerisindeki router üzerindeki ayarın yapılmadığını bize anlatmaktadır. </a><br>
+<br>
+<a>Şimdi routerlar arası bağlantıyı kuracağız ve bu bağlantı ospf üzerinden olacaktır. Bu bağlantı yine ipv4 üzerinden olacaktır.</a><br>
+
+
 
 
