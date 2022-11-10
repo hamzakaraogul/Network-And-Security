@@ -112,7 +112,8 @@ br><br>
 <br>
 
 
-<img src="https://user-images.githubusercontent.com/62428397/201121390-89f09edc-bc77-4e48-9b4d-14ae41adaead.png"><br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201145277-8035afbe-c644-4ea0-8f3c-0048fba4e0e6.png"><br>
 <a>Router 0 ve Router 1 arasındaki ipv6 atamasını gerçekleştiyoruz. Her zamanki gibi Router 0 da clock olduğu için clock rate giriyoruz. Cihaz arası bağlantılar açık olduğu için 'no sh' yazmamıza gerek kalmıyor.</a><br>
 <br>
 
@@ -160,7 +161,7 @@ br><br>
 <br>
 
 <img src="https://user-images.githubusercontent.com/62428397/201142930-a1195a7d-a540-4be1-9aa6-4ff34d4949ec.png"><br>
-<a>Cihazlar arası ipv6 routing de sağlanabilmesi için Router 2 ve switch arasında  bağlantıyı açıyoruz. </a><br>
+<a>Cihazlar arası ipv6 routing de sağlanabilmesi için Router 0 ve switch arasında  bağlantıyı açıyoruz. </a><br>
 <br>
      
 
@@ -173,6 +174,23 @@ br><br>
 
 <img src="https://user-images.githubusercontent.com/62428397/201132675-9c8fd267-8985-463c-bcd7-78822d6fc631.png"><br>
 <a>Dns servis ayarlarında tekrardan dns ayarlarını yapıyoruz ve bu sefer ipv6 için resimdeki gibi dns ayarlarını yapılandırıyoruz. </a><br>
+
+
+<img src="https://user-images.githubusercontent.com/62428397/201146235-2dc566fe-4193-4efb-9837-9c2dce3cf85e.png"><br>
+<a>Yukarıda ki resimde de görüldüğü üzere hem ping hem de tarayıcı üzerinden belirtmiş olduğumuz yola dns ile gidebiliyoruz.</a><br>
+<br>
+<h3>Şimdi Ipv6 ile Access List ayarlarını yapıyoruz.</h3><br>
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/201150215-45f77bd1-092f-4e7d-a150-81a28308383c.png"><br>
+<a>Resimde de görüldüğü üzere ; Router 0 da Web ve dns olduğu için aynı şekilde ipv4 ki gibi router 0 terminaline giriyoruz.</a><br>
+<a>ipv6 access-list WEBACLIPV6 şeklinde acces-listimizi tanımlıyoruz.</a><br>
+<a>permit ile izni veriyoruz ve any yazarak gelen tüm istekleri kabul ediyoruz fakat permit udp any  host 1ef0:111:11:1::2 eq 53 şeklinde sadece 1 port olmak üzere örnek olarak permit udp 1ef0:333:33:3::0/64  host 1ef0:111:11:1::2 eq 53 şeklinde yazsaydık sadece 1ef0:333:33:3::0 üzerinden gelenleri kabul etmiş olurduk yada ayni şekilde sadece tek cihaz için permit udp host 1ef0:333:33:3::2  host 1ef0:111:11:1::2 eq 53 şeklinde yazabilirdik.</a><br>
+<br>
+<a>Yukarıdaki resimde yaptığımız gibi Ipv6 için access listimizi ayarladık.</a><br>
+
+
+                                                           
 
 
 
